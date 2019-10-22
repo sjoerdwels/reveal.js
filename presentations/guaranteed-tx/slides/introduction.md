@@ -2,7 +2,6 @@
 ## Introduction
 
 
-
 <div class="container">
     <div class="col">
          <img src="img/visa.svg" alt="Visa" style="margin-bottom:10%; height: 1.5em; " />    
@@ -18,6 +17,14 @@
     </div>
 </div>
 
+Note:
+- Today, banks are at the heart of our financial system:
+- A bank is an intermediary. They are between two parties who are making transactions. 
+- In 2009 Bitcoin, cryptocurrency
+- Compare Bitcoin and VISA
+- No scalability
+- Unable to process transactions at the speed of centralised systems 
+
 
 <div class="container">
     <div class="col">
@@ -29,6 +36,17 @@
          <p>Decentralised</p>    
     </div>
 </div>
+
+Note:
+- Centralised: one company VISA, maintain all our accounts, storage of data, processing our request.
+- Decentralised: 
+    - Digital ledger which stores changes
+    - Initial state - accumulated changes - end state
+    - Set of predefined rules 
+- Everyone has a copy
+    - Everyone validate them self
+    - Need to agree on the same set of change
+    - Consensus problem
 
 
 <div class="container">
@@ -50,6 +68,16 @@
 <b> Version 2.0: </b> Scalability through <i>sharding</i> <br> Phase 0: January 2020
 </p>
 
+Note:
+- Late 2013 Ethereum
+- Payment transactions - Ether
+- The novelty is extenson of these rules.
+- By publishing code, a small application defining some new rules.
+- but 15 TPS
+- New verson technique sharding
+
+- Rollout in phases
+
 
 ### Sharding
 
@@ -67,6 +95,14 @@
          </div>
     </div>
 
+Note:
+- Transaction china and netherlands
+- Split validators and accounts states
+- Shards
+
+- Partition transaction processing not enough
+- Reduce per node - Validator
+
 
 <div class="container">
     <div class="col">
@@ -78,6 +114,19 @@
          <p>Sharded ledger  <br> <small>N x 15 TPS</small></p>    
     </div>
 </div>
+
+Note:
+- What does this mean for a distributed ledger
+    - Non-sharded: validators, TPS
+    - Sharded: N times, n = 1000
+- Problems:
+    - Security (1 shard takeover)
+    - Cross-sharding: Transaction changes multiple shards
+    - TX_app and TX_cross
+    - Receipts
+- ING to RABO transaction
+    - trust in each other
+    - time
 
 
 ### Problems:
@@ -91,6 +140,13 @@
          <p><small>Receipt not processed by target shard</small></p>    
     </div>
 </div>
+
+Note:
+- Shards currently have no obligation
+- Create tokens
+    - Block not directly final
+    - Think about revered entry. (storneren)
+- Delete tokens
 
 
 ### Research:
@@ -110,3 +166,11 @@ How can we facilitate guaranteed cross-shard transaction execution in a sharded 
         </ul>
     </div>
 </div>
+
+Note:
+- Explain optimistic execution
+- Explain Guaranteed execution
+- Outline for the rest presentation
+    - Background Ethereum 2.0
+    - Solution
+    - Evaluation

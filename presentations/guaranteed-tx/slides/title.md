@@ -5,7 +5,7 @@
  <br> for Ethereum 2.0<small></p>
 
 Note:
-- Who am I?
-- Tell something about the Info-Support
-- Supervisors
-- Explain the title
+- Welcome 
+- Company Info Support
+- The title of my final project:
+- Outline for Today
