@@ -29,6 +29,7 @@ Note:
 - Crypto economics
     - Rewardings low
     - Punishments high
+    - Deposits
 
 
 <h4>Shard design</h4>
@@ -36,7 +37,7 @@ Note:
 
 <p style="margin-top:-1em;">
 <b>Epoch</b> = 64 slots = 6.4 minutes <br> 
-<b>Slot</b> = 5 seconds
+<b>Slot</b> = 6 seconds
 </p>
 
 Note:
@@ -44,6 +45,9 @@ Note:
     - Epoch
     - Slots
 - Validator is assigned
+- Not necessarily a block
+    - network delay
+    - malicious behaviour
 
 
 <h4>Cross-linking shards</h4>

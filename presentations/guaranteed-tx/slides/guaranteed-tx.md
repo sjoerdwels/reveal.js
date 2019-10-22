@@ -8,6 +8,15 @@
 - Record every created and processed cross-shard transaction
 - Punish validators for not processing transactions
 
+Note:
+- Optimistic execution:
+    - shard that processed needs to keep track of creation
+- Guaranteed execution
+    - shard that craeted needs to keep track of processed 
+   
+- A block that created a TX cross, shares this
+- A block that processed a TX cross, shares this
+- Punish validators
 
 <div class="container">
     <div class="col">
