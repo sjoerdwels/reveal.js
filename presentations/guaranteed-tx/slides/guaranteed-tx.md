@@ -48,10 +48,23 @@ Note:
 
  <img src="img/ledger-legend.svg" alt="Design" style="margin-bottom:10%; height: 1.5em; margin-left:1em" />
 
+Note:
+- Message part and Application part
+- Both chains
+- Explain legend 
+    - Canonical
+    - Finalised (cross-link)
+
 
 <h4>Layered architecture</h4>
 <img src="img/overal.svg" alt="Design" style="height: 8em; margin-left:1em" />
 <img src="img/overal-legend.svg" alt="Design" style="margin-bottom:10%; height: 1.5em; margin-left:1em" />
+
+Note:
+- Perspective shard 1
+- Including excluding cross shard transactions
+- Certainty explanation
+- Additional confirmations
 
 
 <h4>Heartbeat mechanism         </h4>
@@ -59,6 +72,14 @@ Note:
 <p style="margin-top:-1em;">
 <b>Cross-link</b> = heartbeat  (every 6.4 minutes) <br> 
 <p>
+
+Note: 
+- Cross-links
+- Two steps
+    - Proof that someone receiveid
+    - Ensure enough time
+- Overloading
+- Thus: punishment after 12 minutes - if more capable
 
 
 <div style="text-align:left"> 
