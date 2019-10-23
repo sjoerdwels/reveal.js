@@ -1,6 +1,9 @@
 <!-- .slide: data-background="#146287" -->
 ## Introduction
 
+Note:
+- Let's begin
+
 
 <div class="container">
     <div class="col">
@@ -81,19 +84,7 @@ Note:
 
 ### Sharding
 
-<div class="container">
-    <div class="col">
-    Split the computational work among multiple groups of participants 
- </div>
-        <div class="col fragment">
-         Full sharding:
-         <ul>
-             <li>Storage</li>
-             <li>Processing</li>   
-             <li>Communication </li>
-         </ul>
-         </div>
-    </div>
+ Split the computational work among multiple groups of participants 
 
 Note:
 - Transaction china and netherlands
